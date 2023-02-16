@@ -1,7 +1,4 @@
 
-
-
-
 .collapse {
   color:white ;
   background-color: #ff6060;
@@ -31,7 +28,7 @@ h2 {
   max-width: 978px;
   padding: 36px 31px;
   z-index: 3;
-  background-color: lightgray;
+  background-color: #f7f7f7;
   border-radius: 0 0 15px 15px;
  
 }
