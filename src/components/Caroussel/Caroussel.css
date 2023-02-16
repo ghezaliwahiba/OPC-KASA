@@ -33,6 +33,7 @@ width: 20px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+ 
   margin-right: 5%;
 }
 
