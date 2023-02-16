@@ -1,0 +1,21 @@
+   
+   
+.collapses-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+   
+  }
+  
+  .DescrEquip{
+   border: 1px solid black;
+  }
+ 
+  
+  
+  .collapses-logement > .collapse-box {
+    width: 47%;
+   
+  }

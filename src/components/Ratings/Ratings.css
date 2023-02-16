@@ -1,0 +1,14 @@
+.Stars{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+@media (max-width: 768px) {
+    .Stars img{
+        padding-top: 10px;
+        width: 20px;
+        }
+
+}
