@@ -47,14 +47,24 @@ const Logement = () => {
               slide={data.pictures}
             />
           </div>
-        
+      <section className="coucou">  
         <section className="InfoSection">
             <div className="divTitle">
               <h1 className="ficheTitle">{data.title}</h1>
               <p className="localisation">{data.location}</p>
              </div>
 
-          <div className="InfoHost">
+             <div className="tags">
+                {data.tags.map((tag) => (
+                  <li key={tag} className="tag">{tag}</li>
+                ))}
+              </div>
+
+          
+        </section>
+
+        <section className="TagsRatings">
+            <div className="InfoHost">
                 <span className="NameHost">
             {data.host.name}
             </span>
@@ -65,20 +75,15 @@ const Logement = () => {
         />
         </span>
         </div>
-        </section>
-
-        <section className="TagsRatings">
-            
-              <div className="tags">
-                {data.tags.map((tag) => (
-                  <li key={tag} className="tag">{tag}</li>
-                ))}
-              </div>
-
               <div className="Ratings">
               <Rate Ratings={data.rating} />
-              </div>
+              </div>  
+              
+              
               </section>
+              </section>
+
+            
 
             <section className="DescrEquip">
               
