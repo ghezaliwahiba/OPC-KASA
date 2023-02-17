@@ -56,15 +56,48 @@ img {
     height: 20%;
 }
 
+/*tabelette*/
+
+@media (max-width: 992px) {
+    .card_div {
+        height: 250px;
+       
+    }
+
+    .card_img { 
+        width: 100%;
+        height: 80%;
+       
+    }
+    .card_text {
+     
+        font-weight: 200;
+        font-size: 13px;
+        width: 90%;
+        height: 20%;
+    }
+
+}
 
   /*mobile*/
 @media (max-width: 768px) {
+    .card_div {
+        border: 1px solid black;
+        height: 400px;
+       
+    }
     .cards  {
         display: flex;
         flex-direction: column;
         padding: 0;
         background-color: #ffffff;
         gap: 20px;
+    }
+    .card_text {
+      
+        font-weight: 500;
+        font-size: 15px;
+      
     }
 
 }
