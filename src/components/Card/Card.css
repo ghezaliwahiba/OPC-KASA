@@ -8,6 +8,7 @@ img {
     object-fit: cover;
 }
 
+
 .cards {
     margin: 33px auto 60px auto;
     max-width: 1920px;
@@ -82,7 +83,7 @@ img {
   /*mobile*/
 @media (max-width: 768px) {
     .card_div {
-        border: 1px solid black;
+      
         height: 400px;
        
     }
