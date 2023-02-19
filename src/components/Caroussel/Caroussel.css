@@ -1,6 +1,4 @@
-
-  
-  .slideLogement {
+.slideLogement {
     margin-left: 4%;
     position: absolute;
     object-fit: cover;
@@ -202,6 +200,14 @@ width: 50%;
 border-radius: 15px;
 }
 
+@media screen and (max-width: 992px) {
+
+  .compteur{
+
+   
+    color: transparent;
+  }
+}
 
 
 @media screen and (max-width: 760px) {
@@ -264,6 +270,7 @@ border-radius: 15px;
   .NameHost{
  padding-top: 10px;
    font-size: 15px;
+   
    margin-left: 10%;
   }
 
@@ -272,5 +279,8 @@ border-radius: 15px;
 
 
  
+ 
+
+
  
 
