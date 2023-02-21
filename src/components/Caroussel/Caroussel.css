@@ -1,4 +1,6 @@
-.slideLogement {
+
+ 
+  .slideLogement {
     margin-left: 4%;
     position: absolute;
     object-fit: cover;
@@ -54,6 +56,7 @@ width: 20px;
     left:90%;
     top: 37%;
     width: 3%;
+    
   }
 
   .FlechGauche{
@@ -203,8 +206,6 @@ border-radius: 15px;
 @media screen and (max-width: 992px) {
 
   .compteur{
-
-   
     color: transparent;
   }
 }
@@ -218,6 +219,7 @@ border-radius: 15px;
     width: 100%;
     font-size: medium;
   }
+  
   .DescrEquip{
     display: flex;
     flex-direction:column;
@@ -273,14 +275,20 @@ border-radius: 15px;
    
    margin-left: 10%;
   }
+  .FlechDroite{
+    width: 8%;
+    height: 10%;
+  }
+
+  .FlechGauche{
+    width: 8%;
+    height: 10%;
+  }
 
    
 }
 
 
  
- 
-
-
  
 
