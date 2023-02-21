@@ -1,22 +1,16 @@
-import React, { useState } from 'react'; //useState est un hook qui permet d’ajouter le state local React à des composants fonctions.
+import React, { useState } from 'react'; 
 import CarousselNext from'../../Images/CarrouselNext.svg';
 import CarousselPrevious from'../../Images/CarrousePrevious.svg';
 import './Caroussel.css'
 
-function Carrousel({ slide }) {//slide.length(x) = nombre d'images et curentslide(x-1) est l'index de l'image.
+function Carrousel({ slide }) {
  //console.log(slide);
 
   const [CurentSlide, setIndex] = useState(0); 
-  //useState nous renvoie une paire de valeurs dans un tableau de 2 éléments: CurentSlide, setIndex;
-  //CurentSlide est la valeur actuelle, et setIndex est une fonction qui permet de la modifier.
-  //utiliser l'état pour gérer l'index de mon élément de carrousel. Pour cela, j'ai déclaré ce qui suit avec l'état par défaut à 0 : const [currentIndex, setCurrentIndex] = useState(0).
   console.log(CurentSlide)
-
-
-  //Les fonctions nextSlide et preventSlide s’occupent des mises à jour de la valeur de CurentSlide lorsque l’utilisateur clique sur le Précédent et Prochain boutons.
   
   function preventSlide() {
-    const newSlide = CurentSlide - 1; 
+ const newSlide = CurentSlide - 1; 
 setIndex(newSlide < 0 ? slide.length - 1 : newSlide); 
 console.log(newSlide)
     
